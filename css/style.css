@@ -61,3 +61,29 @@ body {
   background-color: rgb(20, 20, 20);
   position: absolute;
 }
+
+section {
+  margin-bottom: 60px;
+}
+
+.inner-nav nav {
+  position: relative;
+}
+.inner-nav a {
+  position: relative;
+  margin: 0 20px;
+  text-decoration: none;
+  font-size: large;
+  font-weight: bolder;
+  color: black;
+  -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  transition: 0.5;
+  letter-spacing: 1px;
+}
+.inner-nav a:hover{
+    -webkit-text-fill-color: black; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 0px;
+    -webkit-text-stroke-color: black;
+}
