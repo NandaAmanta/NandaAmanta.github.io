@@ -27,8 +27,11 @@ body {
 .inner-profile a {
   color: black;
   text-decoration: none;
-  margin: 5px;
+  margin : 5px;
   font-size: xx-large;
+}
+.inner-profile a:hover{
+    color: rgba(0, 0, 0, 0.418);
 }
 .inner-profile .medsos {
   margin-top: 20px;
@@ -87,3 +90,36 @@ section {
     -webkit-text-stroke-width: 0px;
     -webkit-text-stroke-color: black;
 }
+
+.inner-nav .active-inner-nav{
+    -webkit-text-fill-color: black; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 0px;
+    -webkit-text-stroke-color: black;
+}
+
+.main{
+    text-align: center;
+}
+
+.main section{
+    max-width: 600px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.main section p{
+    text-align: justify;
+    padding: 0 10px;
+}
+
+.main section h2{
+    margin-bottom: 30px;
+}
+
+.aboutme img{
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
