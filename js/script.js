@@ -31,6 +31,18 @@ function clearNavActiveExcept(indexNav) {
 
 // On load
 window.addEventListener('load', function (event) {
+
+    console.log(`
+    ================================================================
+    ||                                                            ||
+    ||                                                            ||
+    ||  Hi, You want to check my profile website code, don't you? ||
+    ||  I made this site only with html, css and javascript.      ||
+    ||  But of course I need a litle bootstrap help  :D           ||
+    ||                                                            ||
+    ||                                                            ||
+    ================================================================
+    `)
     if (this.localStorage.getItem("currentNav") != null) {
         navigate(parseInt(this.localStorage.getItem("currentNav")))
     }
