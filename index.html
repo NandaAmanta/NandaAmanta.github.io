@@ -101,9 +101,7 @@
         />
         <div class="inner-profile">
           <h1>I Putu Nanda Amanta</h1>
-          <h2>
-            Backend Software Engineer 👨‍💻 | EXP Group 👨‍💼| GLE Programmer 💻
-          </h2>
+          <h2>Backend Software Engineer 👨‍💻 | EXP Group 👨‍💼</h2>
           <div class="medsos">
             <a href="https://github.com/NandaAmanta" target="blank">
               <i class="fa-brands fa-github"></i>
@@ -128,37 +126,60 @@
 
     <section class="inner-nav" style="text-align: center">
       <nav>
-        <a href="" class="active-inner-nav">Profile</a>
-        <a href="">About Me</a>
-        <a href="">Skill</a>
-        <a href="">Experience</a>
-        <a href="">Contact</a>
+        <a href="#about-me" id="about-me" onclick="navigate(0)">About Me</a>
+
+        <a
+          href="#profile"
+          id="profile"
+          class="active-inner-nav"
+          onclick="navigate(1)"
+          >Profile</a
+        >
+        <a href="#skill" id="skill" onclick="navigate(2)">Skill</a>
+        <a href="#experience" id="experience" onclick="navigate(3)"
+          >Experience</a
+        >
+        <a href="#contact" id="contact" onclick="navigate(4)">Contact</a>
       </nav>
     </section>
 
     <section class="main">
-      <section class="aboutme">
-        <h2>About Me</h2>
+      <section class="aboutme inner-section">
+        <h2 class="fw-bold">About Me</h2>
         <div class="row">
-          <div class="col-4">
-            <img src="asset/img/nanda2.jpeg" alt="Nanda Amanta Photo" />
+          <div class="col-md-4 col-sm-12">
+            <div class="card-image">
+              <div class="card-image-front">
+                <img src="asset/img/nanda2.jpeg" alt="Nanda Amanta's Photo" />
+              </div>
+              <div class="card-image-back">
+                <p>Hai</p>
+              </div>
+            </div>
           </div>
-          <div class="col-8">
+          <div class="col-md-8 col-sm-12 pt-md-0 pt-4">
             <p>
               Hi there! My name is I Putu Nanda Amanta or you can just call me
               Nanda or Putu. I live in Gianyar, Bali, Indonesia. On this 2022
-              I'm 19 years old. I really love Programming, Music, Photograpy.
-              And of course , Programming is the most that I love.
+              I'm 19 years old. Currently, I'm Backend Software Engineer with
+              1.5++ year experience in Java using Micronaut and Spring.
+            </p>
+            <p>
+              Beside that I also know or familiar with Nodejs(Express),
+              Python(Flask & Djago), GO because I ever learn and I usually use
+              one of them like NodeJs for my freelance project.
             </p>
           </div>
         </div>
         <br />
+        <h5 class="fw-bold">My Journey on Programming</h5>
         <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-          Necessitatibus quod natus ut impedit iusto, blanditiis culpa molestiae
-          sequi nobis autem, voluptas fugit. Laudantium ad deleniti molestiae in
-          consequuntur ab tempora?
+          I have been starting to learn Programming since 2019. the first thing
         </p>
+      </section>
+
+      <section class="inner-section">
+        <h1>Hello</h1>
       </section>
     </section>
     <script
